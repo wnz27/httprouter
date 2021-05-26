@@ -16,7 +16,7 @@ func min(a, b int) int {
 	}
 	return b
 }
-
+// 最长公共前缀长度，0开始，返回一样的索引
 func longestCommonPrefix(a, b string) int {
 	i := 0
 	max := min(len(a), len(b))
